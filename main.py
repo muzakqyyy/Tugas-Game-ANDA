@@ -12,13 +12,7 @@ WIDTH = 800
 HEIGHT = 600
 
 FPS = 60
-
-# Perubahan: kecepatan sekarang dalam pixel/detik (bukan pixel/frame),
-# supaya gerakan tetap konsisten walau frame rate berubah/turun.
-PLAYER_SPEED = 300  # setara 5 px/frame pada 60 FPS
-
-FRAME_WIDTH = 64
-FRAME_HEIGHT = 64
+PLAYER_SPEED = 5
 
 WIN = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Stardew KW")
